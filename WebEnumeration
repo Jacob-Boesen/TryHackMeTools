@@ -1,5 +1,7 @@
 These are the web enumeration tools that I have been very useful to enumerate web pages and find vulnerabilities.
 
+
+-----------------------------------------Web Enumeration-----------------------------------------
 Gobuster
 Usage - Enumerate using a directory list to find directories within a web page
 Syntax - gobuster dir -u (Full URL) -w (Wordlist)
@@ -9,3 +11,14 @@ FFUF
 Usage - Enumerate using a directory list to find directories within a web page
 Syntax - ffuf -c -w (Wordlist) -u (Full URL)
 Installation - git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
+
+Dirb 
+Usage - Enumerate using a directory list to find directories within a web page
+Syntax - dirb (Full URL) (Wordlist)
+Installation - sudo apt install dirb
+
+-----------------------------------------Vulnerability Enumeration-----------------------------------------
+Nikto
+Usage - Tool to look for vulnerabilities on the web server running on port 80
+Syntax - nikto -h (Full URL)
+Installation - sudo apt-get install nikto -y
