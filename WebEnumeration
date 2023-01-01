@@ -1,0 +1,11 @@
+These are the web enumeration tools that I have been very useful to enumerate web pages and find vulnerabilities.
+
+Gobuster
+Usage - Enumerate using a directory list to find directories within a web page
+Syntax - gobuster dir -u (Full URL) -w (Wordlist)
+Installation - sudo apt install gobuster
+
+FFUF
+Usage - Enumerate using a directory list to find directories within a web page
+Syntax - ffuf -c -w (Wordlist) -u (Full URL)
+Installation - git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
